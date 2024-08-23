@@ -15,10 +15,10 @@ import java.nio.channels.FileChannel;
 public class NIOFileChannel {
 
     public static void main(String[] args) throws Exception {
-//        writeFile();
+        writeFile();
 //        readFile();
 //        readAndWrite();
-        transferFrom();
+//        transferFrom();
     }
 
     public static void writeFile() throws Exception {
@@ -59,6 +59,9 @@ public class NIOFileChannel {
         fileInputStream.close();
     }
 
+    /**
+     * 用一个buffer完成文件的读写
+     */
     public static void readAndWrite() throws Exception {
         FileInputStream fileInputStream = new FileInputStream("./1.txt");
         FileChannel inputStreamChannel = fileInputStream.getChannel();
@@ -66,8 +69,9 @@ public class NIOFileChannel {
         FileChannel outputStreamChannel = fileOutputStream.getChannel();
 
         ByteBuffer byteBuffer = ByteBuffer.allocate(100);
+//        byteBuffer = byteBuffer.asReadOnlyBuffer();
         while (true) {
-            // 每次读取完后情况buffer
+            // 每次读取完后清空buffer
             byteBuffer.clear();
             int read = inputStreamChannel.read(byteBuffer);
             System.out.println("read = " + read);
