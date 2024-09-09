@@ -1,0 +1,32 @@
+syntax = "proto3";
+option optimize_for = SPEED; // 加快解析
+option java_package = "com.hg.netty.codec2"; // 执行生成的包路径
+option java_outer_classname = "MyDataInfo"; // 外部类名
+
+// protobuf可以使用message管理其他的message
+message MyMessage {
+  // 定义一个枚举类型
+  // 要求编号从0开始
+  enum DataType {
+    StudentType = 0;
+    WorkerType = 1;
+  }
+
+  // 用data_type来标识当前枚举类型
+  DataType data_type = 1;
+
+  oneof dataBody {
+    Student student = 2;
+    worker worker = 3;
+  }
+}
+
+message Student {
+  int32 id = 1;
+  string name = 2;
+}
+
+message worker {
+  string name = 1;
+  int32 age = 2;
+}

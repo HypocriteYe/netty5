@@ -4,6 +4,7 @@ import javax.sound.midi.Soundbank;
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
 import java.nio.channels.*;
+import java.nio.charset.Charset;
 import java.util.Iterator;
 import java.util.Set;
 
@@ -38,9 +39,10 @@ public class NIOServer {
                     // 获取到channel
                     try {
                         SocketChannel socketChannel = serverSocketChannel.accept();
+                        System.out.println("客户端连接成功，生成了一个socketChannel: " + socketChannel.hashCode());
                         socketChannel.configureBlocking(false);
                         // 注册到selector，关注事件为read，给socketChannel绑定一个buffer
-                        socketChannel.register(selector, SelectionKey.OP_READ, ByteBuffer.allocate(1024));
+                        socketChannel.register(selector, SelectionKey.OP_READ, ByteBuffer.allocate(20));
                     } catch (Exception e) {
                     }
                 }
@@ -51,7 +53,7 @@ public class NIOServer {
                         SocketChannel channel = (SocketChannel) selectionKey.channel();
                         ByteBuffer buffer = (ByteBuffer) selectionKey.attachment();
                         channel.read(buffer);
-                        System.out.println("从客户端读取数据: " + new String(buffer.array()));
+                        System.out.println("从客户端读取数据: " + new String(buffer.array(), Charset.defaultCharset()));
                     } catch (Exception e) {
                     }
                 }

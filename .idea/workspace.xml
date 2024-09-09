@@ -4,16 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="931b8ddb-cf57-4f89-98dd-02df6db730ea" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="931b8ddb-cf57-4f89-98dd-02df6db730ea" name="Changes" comment="commit">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hg/netty/nio/NIOFileChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hg/netty/nio/NIOFileChannel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hg/netty/nio/NIOServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hg/netty/nio/NIOServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -25,21 +29,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-http/4.1.111.Final/netty-codec-http-4.1.111.Final.jar!/io/netty/handler/codec/http/HttpHeaderNames.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-http/4.1.111.Final/netty-codec-http-4.1.111.Final.jar!/io/netty/handler/codec/http/HttpObject.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-http/4.1.111.Final/netty-codec-http-4.1.111.Final.jar!/io/netty/handler/codec/http/HttpResponseStatus.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:\apache-maven-3.9.6" />
+        <option name="customMavenHome" value="D:\apache-maven-3.9.6" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
         <option name="userSettingsFile" value="/usr/local/apache-maven-3.9.3/conf/settings.xml" />
       </MavenGeneralSettings>
-    </option>
-    <option name="disabledProfiles">
-      <list>
-        <option value="dev" />
-        <option value="jdk1.8" />
-      </list>
     </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -55,30 +59,73 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BufferOperation.executor": "Run",
-    "Application.NIOFileChannel.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Data/IDEA/netty5",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BIOServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BufferOperation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Client2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EchoClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EchoServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GroupChatClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GroupChatServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyTcpClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyTcpServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NIOClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NIOFileChannel.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NIOServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NettyBuffer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NettyClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NettyServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NewIOClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NewIOServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OldIOClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OldIOServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RPCClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RPCServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Server.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WebSocketServer.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.com.hg.netty.codec2.NettyClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.hg.netty.codec2.NettyServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.hg.netty.groupchat.GroupChatClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.hg.netty.groupchat.GroupChatClient2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.hg.netty.groupchat.GroupChatServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.hg.netty.protocoltcp.MyTcpClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.hg.netty.protocoltcp.MyTcpServer.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.websocket.html.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Data/IDEA/netty5/src/main/java/com/hg/netty&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.4178499&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "stardust.markdown.MarkdownSplitEditorSuppressor:keyList": [
+  &quot;keyToStringList&quot;: {
+    &quot;stardust.markdown.MarkdownSplitEditorSuppressor:keyList&quot;: [
     ]
   }
-}]]></component>
-  <component name="RunManager" selected="Application.BufferOperation">
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Data\IDEA\netty5\src\main\java\com\hg\netty" />
+      <recent name="D:\Data\IDEA\netty5\src\main\java\com\hg\netty\protocoltcp" />
+      <recent name="D:\Data\IDEA\netty5\src\main\java\com\hg\netty\tcp" />
+      <recent name="D:\Data\IDEA\netty5\src\main\java\com\hg\netty\codec2" />
+      <recent name="D:\Data\IDEA\netty5\src\main\java\com\hg\netty\codec" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.RPCClient">
     <configuration default="true" type="lua.app" factoryName="Lua Application">
       <option name="program" value="/usr/local/bin/lua" />
       <option name="file" value="" />
@@ -89,12 +136,19 @@
       <option name="showConsole" value="true" />
       <method v="2" />
     </configuration>
-    <configuration name="BufferOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hg.netty.nio.BufferOperation" />
+    <configuration name="Client2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.hg.netty.nio.groupchat.GroupChatClient" />
+      <module name="netty5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hg.netty.echo.EchoClient" />
       <module name="netty5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hg.netty.nio.*" />
+          <option name="PATTERN" value="com.hg.netty.echo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NIOFileChannel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hg.netty.nio.NIOFileChannel" />
+    <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hg.netty.echo.EchoServer" />
       <module name="netty5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hg.netty.nio.*" />
+          <option name="PATTERN" value="com.hg.netty.echo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,10 +169,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GroupChatClient" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.hg.netty.nio.groupchat.GroupChatClient" />
+      <module name="netty5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hg.netty.simple.NettyClient" />
+      <module name="netty5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hg.netty.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RPCClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hg.netty.dubborpc.consumer.RPCClient" />
+      <module name="netty5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hg.netty.dubborpc.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RPCServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hg.netty.dubborpc.provider.RPCServer" />
+      <module name="netty5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hg.netty.dubborpc.provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.hg.netty.groupchat.GroupChatClient2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.hg.netty.groupchat.GroupChatClient" />
+      <module name="netty5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Client2" />
+      <item itemvalue="Application.GroupChatClient" />
+      <item itemvalue="Application.com.hg.netty.groupchat.GroupChatClient2" />
+      <item itemvalue="Application.EchoClient" />
+      <item itemvalue="Application.EchoServer" />
+      <item itemvalue="Application.NettyClient" />
+      <item itemvalue="Application.RPCClient" />
+      <item itemvalue="Application.RPCServer" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BufferOperation" />
-        <item itemvalue="Application.NIOFileChannel" />
+        <item itemvalue="Application.RPCClient" />
+        <item itemvalue="Application.RPCServer" />
+        <item itemvalue="Application.EchoClient" />
+        <item itemvalue="Application.EchoServer" />
+        <item itemvalue="Application.NettyClient" />
       </list>
     </recent_temporary>
   </component>
@@ -133,12 +253,123 @@
       <workItem from="1723444477854" duration="611000" />
       <workItem from="1723459960978" duration="2645000" />
       <workItem from="1724375897705" duration="1421000" />
-      <workItem from="1724378197650" duration="9739000" />
+      <workItem from="1724378197650" duration="9804000" />
+      <workItem from="1724415194446" duration="315000" />
+      <workItem from="1724415522646" duration="3683000" />
+      <workItem from="1724420348379" duration="115000" />
+      <workItem from="1724496924039" duration="713000" />
+      <workItem from="1724502082866" duration="839000" />
+      <workItem from="1724550271355" duration="1198000" />
+      <workItem from="1724749678438" duration="14693000" />
+      <workItem from="1724811291284" duration="3013000" />
+      <workItem from="1724841302868" duration="3864000" />
+      <workItem from="1724894683235" duration="2688000" />
+      <workItem from="1724922337793" duration="602000" />
+      <workItem from="1725022765698" duration="599000" />
+      <workItem from="1725066753989" duration="4047000" />
+      <workItem from="1725096428736" duration="6182000" />
+      <workItem from="1725155137060" duration="2338000" />
+      <workItem from="1725170601187" duration="11532000" />
+      <workItem from="1725204111674" duration="1311000" />
+      <workItem from="1725205443723" duration="1385000" />
+      <workItem from="1725241005291" duration="2883000" />
+      <workItem from="1725258021706" duration="9293000" />
+      <workItem from="1725280628607" duration="7734000" />
+      <workItem from="1725324511438" duration="604000" />
+      <workItem from="1725411956467" duration="1737000" />
+      <workItem from="1725417055004" duration="642000" />
+      <workItem from="1725417707601" duration="3798000" />
+      <workItem from="1725432411492" duration="8104000" />
+      <workItem from="1725456953539" duration="1711000" />
+      <workItem from="1725498851814" duration="5371000" />
+      <workItem from="1725609424892" duration="11095000" />
+      <workItem from="1725688592419" duration="21340000" />
+      <workItem from="1725758821698" duration="24423000" />
+      <workItem from="1725844761945" duration="18000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <option name="closed" value="true" />
+      <created>1724403901281</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724403901281</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hg/netty/nio/groupchat/GroupChatServer.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hg/netty/nio/groupchat/GroupChatClient.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hg/netty/simple/NettyServerHandler.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hg/netty/http/HttpServerHandler.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hg/netty/buffer/NettyBuffer.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hg/netty/groupchat/GroupChatServerHandler.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hg/netty/groupchat/GroupChatServerHandler.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hg/netty/websocket/MyTextWebSocketFrameHandler.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hg/netty/handlerchain/MyByteToLongDecoder.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hg/netty/echo/EchoClientHandler.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hg/netty/echo/EchoServerHandler.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hg/netty/dubborpc/netty/NettyServerHandler.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
