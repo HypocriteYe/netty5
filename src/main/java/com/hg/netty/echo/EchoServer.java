@@ -56,7 +56,7 @@ public final class EchoServer {
                      if (sslCtx != null) {
                          p.addLast(sslCtx.newHandler(ch.alloc()));
                      }
-                     //p.addLast(new LoggingHandler(LogLevel.INFO));
+                     p.addLast(new LoggingHandler(LogLevel.INFO));
                      // 给handler添加对应的业务线程组
                      p.addLast(EXECUTOR_GROUP, serverHandler);
                      // p.addLast(serverHandler);
